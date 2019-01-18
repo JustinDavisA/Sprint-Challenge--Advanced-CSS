@@ -137,6 +137,26 @@ body {
   font-family: 'Ubuntu', sans-serif;
   color: #5E6164;
 }
+.content-nav {
+  background-color: cyan;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+.content-nav h1 {
+  font-size: 4rem;
+  margin: 1rem auto;
+}
+.content-nav nav {
+  margin: 1.4rem auto;
+}
+.content-nav nav a {
+  text-decoration: none;
+  color: darkblue;
+  font-size: 1.5rem;
+  margin: auto 1.6rem;
+}
 h1,
 h2,
 h3,
