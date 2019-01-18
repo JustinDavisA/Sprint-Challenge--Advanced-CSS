@@ -1,13 +1,14 @@
 // Mixins Here
 
-.button() {
+.button(@btnWidth, @btnHeight, @btnTxtSize) {
     border: none;
     color: white;
     background-color: #23293B;
-    width: 10rem;
-    height: 3.5rem;
-    font-size: 2rem;
+    width: @btnWidth;
+    height: @btnHeight;
+    font-size: @btnTxtSize;
     border-radius: 0.5rem;
+    transition: background-color 2s;
 }
 
 .margins-mobile() {
