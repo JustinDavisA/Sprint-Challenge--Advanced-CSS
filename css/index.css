@@ -182,6 +182,16 @@ p {
   color: #23293B;
   font-size: 1.5rem;
   margin: auto 1.6rem;
+  transition: background-color 2s;
+  border-radius: 3rem;
+  transition: padding 2s;
+  transition: color 2s;
+}
+.content-nav nav a:hover {
+  background-color: #23293B;
+  border-radius: 2rem;
+  padding: 1rem;
+  color: cyan;
 }
 .underNav {
   height: 10rem;
@@ -278,8 +288,8 @@ footer {
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
     width: 100%;
-    height: 20%;
     margin: auto;
+    height: 20%;
   }
 }
 .home .walk .walk-text .btn:hover {
@@ -300,4 +310,7 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+.home .walk .sign-up {
+  margin-bottom: 3rem;
 }
