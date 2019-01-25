@@ -1,1 +1,22 @@
 // Mixins Here
+
+.button(@btnPadding, @btnTxtSize) {
+    border: none;
+    color: white;
+    background-color: #23293B;
+    padding: @btnPadding;
+    font-size: @btnTxtSize;
+    border-radius: 0.5rem;
+    transition: background-color 2s;
+}
+
+.margins-mobile() {
+    width: 100%;
+    margin: auto;
+}
+
+.flexy() {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}

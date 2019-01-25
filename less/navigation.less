@@ -1,1 +1,40 @@
 // Navigation code here
+
+.content-nav {
+   background-color: rgba(78, 255, 255, .7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    h1 {
+      font-size: 4rem;
+      margin: 1rem auto;
+    }
+    nav {
+      margin: 1.4rem auto;
+      a {
+        text-decoration: none;
+        color: #23293B;
+        font-size: 1.5rem;
+        margin: auto 1.6rem;
+        transition: background-color 2s;
+        border-radius: 3rem;
+        transition: padding 2s;
+        transition: color 2s
+      }
+
+      a:hover {
+        background-color: #23293B;
+        border-radius: 2rem;
+        padding: 1rem;
+        color: cyan;
+      }
+    }
+  }
+
+  .underNav {
+      height: 10rem;
+  }
